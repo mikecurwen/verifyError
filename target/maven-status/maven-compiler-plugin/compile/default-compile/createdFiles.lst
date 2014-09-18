@@ -1,0 +1,5 @@
+com/company/app/module/constraint/validator/FooNoImplementsConstraintValidator.class
+com/company/app/module/domain/FooChild.class
+com/company/app/module/domain/Foo.class
+com/company/app/module/constraint/validator/FooExtendsValidator.class
+com/company/app/module/constraint/ValidFoo.class

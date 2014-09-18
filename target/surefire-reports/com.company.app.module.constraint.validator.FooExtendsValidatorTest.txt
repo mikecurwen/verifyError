@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.company.app.module.constraint.validator.FooExtendsValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.company.app.module.constraint.validator.FooExtendsValidatorTest
+testValid(com.company.app.module.constraint.validator.FooExtendsValidatorTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: (class: com/company/app/module/constraint/validator/FooExtendsValidator$$EnhancerByCGLIB$$eff15a95, method: CGLIB$isValid$0 signature: (Ljava/lang/Object;Ljavax/validation/ConstraintValidatorContext;)Z) Incompatible argument to function
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:340)
+	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:386)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:219)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.createClass(Enhancer.java:317)
+	at org.easymock.internal.ClassProxyFactory.createProxy(ClassProxyFactory.java:175)
+	at org.easymock.internal.MocksControl.createMock(MocksControl.java:114)
+	at org.easymock.internal.MocksControl.createMock(MocksControl.java:88)
+	at org.easymock.internal.MockBuilder.createMock(MockBuilder.java:206)
+	at org.easymock.internal.MockBuilder.createMock(MockBuilder.java:219)
+	at org.easymock.internal.MockBuilder.createMock(MockBuilder.java:188)
+	at com.company.app.module.constraint.validator.FooExtendsValidatorTest.createPartialMock(FooExtendsValidatorTest.java:38)
+	at com.company.app.module.constraint.validator.FooExtendsValidatorTest.testValid(FooExtendsValidatorTest.java:25)
+
