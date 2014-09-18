@@ -1,5 +1,0 @@
-/home/mcurwen/projects/scratchy/src/main/java/com/company/app/module/domain/Foo.java
-/home/mcurwen/projects/scratchy/src/main/java/com/company/app/module/domain/FooChild.java
-/home/mcurwen/projects/scratchy/src/main/java/com/company/app/module/constraint/validator/FooNoImplementsConstraintValidator.java
-/home/mcurwen/projects/scratchy/src/main/java/com/company/app/module/constraint/ValidFoo.java
-/home/mcurwen/projects/scratchy/src/main/java/com/company/app/module/constraint/validator/FooExtendsValidator.java
